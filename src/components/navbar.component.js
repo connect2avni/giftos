@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 const Navbar = () => {
@@ -8,11 +9,11 @@ const Navbar = () => {
 
                 <header className="header_section">
                     <nav className="navbar navbar-expand-lg custom_nav-container ">
-                        <a className="navbar-brand" href="index.html">
+                        <Link className="navbar-brand" to="/">
                             <span>
                                 Giftos
                             </span>
-                        </a>
+                        </Link>
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span className=""></span>
                         </button>
@@ -20,37 +21,37 @@ const Navbar = () => {
                         <div className="collapse navbar-collapse innerpage_navbar" id="navbarSupportedContent">
                             <ul className="navbar-nav  ">
                                 <li className="nav-item ">
-                                    <a className="nav-link" href="index.html">Home <span className="sr-only">(current)</span></a>
+                                    <Link className="nav-link" to="/">Home <span className="sr-only">(current)</span></Link>
                                 </li>
                                 <li className="nav-item active">
-                                    <a className="nav-link" href="shop.html">
+                                    <Link className="nav-link" to="/shop">
                                         Shop
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="why.html">
+                                    <Link className="nav-link" to="/why">
                                         Why Us
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="testimonial.html">
+                                    <Link className="nav-link" to="/testimonial">
                                         Testimonial
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="contact.html">Contact Us</a>
+                                    <Link className="nav-link" to="/contact">Contact Us</Link>
                                 </li>
                             </ul>
                             <div className="user_option">
-                                <a href="">
+                                <Link to="">
                                     <i className="fa fa-user" aria-hidden="true"></i>
                                     <span>
                                         Login
                                     </span>
-                                </a>
-                                <a href="">
+                                </Link>
+                                <Link to="">
                                     <i className="fa fa-shopping-bag" aria-hidden="true"></i>
-                                </a>
+                                </Link>
                                 <form className="form-inline ">
                                     <button className="btn nav_search-btn" type="submit">
                                         <i className="fa fa-search" aria-hidden="true"></i>

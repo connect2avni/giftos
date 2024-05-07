@@ -2,7 +2,7 @@ import React from "react"
 import Navbar from "../components/navbar.component"
 
 
-class AboutPage extends React.Component{
+class ShopPage extends React.Component{
 
     render(){
         return(
@@ -12,4 +12,4 @@ class AboutPage extends React.Component{
         )
     }
 }
-export default AboutPage
+export default ShopPage

@@ -1,6 +1,6 @@
-import {Routes,Route} from 'react-router-dom'
-import HomePage from '../pages/Home';
-import AboutPage from '../pages/about';
+import {Routes,Route} from 'react-router-dom';
+import HomePage from '../pages/home';
+import ShopPage from '../pages/shop';
 
 
 const WebRoutes= () => {
@@ -9,7 +9,7 @@ const WebRoutes= () => {
         <Routes>
             <Route path="/" element={<HomePage/>} /> 
             <Route path="/home" element={<HomePage/>} /> 
-            <Route path="/about" element={<AboutPage/>} /> 
+            <Route path="/shop" element={<ShopPage/>} /> 
         </Routes>
 
 

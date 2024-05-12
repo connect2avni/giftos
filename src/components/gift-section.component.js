@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import React, { Component } from 'react'
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import gift from '../assets/images/gifts.png'
 
 const GiftSectionComponent= ()=> {
     return(
@@ -12,7 +13,7 @@ const GiftSectionComponent= ()=> {
           <div class="col-md-5">
             <div class="img_container">
               <div class="img-box">
-                <img src="images/gifts.png" alt=""/>
+                <img src={gift} alt=""/>
               </div>
             </div>
           </div>
@@ -31,7 +32,7 @@ const GiftSectionComponent= ()=> {
                 <Link to="#" class="btn1">
                   Buy Now
                 </Link>
-                <Link to="#" class="btn2">
+                <Link to="" class="btn2">
                   See More
                 </Link>
               </div>

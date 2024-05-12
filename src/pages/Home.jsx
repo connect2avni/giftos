@@ -8,7 +8,7 @@ import GiftSectionComponent from "../components/gift-section.component"
 import ContactUsComponent from "../components/contact-us.component"
 import Testimonial from "../components/tesimonial.component"
 import FooterComponent from "../components/footer.component"
-import LoginPage from "./login"
+import picture1 from '../assets/images/saving-img.png';
 
 
 class HomePage extends React.Component{
@@ -19,7 +19,7 @@ class HomePage extends React.Component{
             <Navbar/>
             <HeroSlider/>
             <LatestProducts/>
-            <MiddleComponent/>
+            <MiddleComponent picture={picture1}/>
             <WhySectionComponent/>
             <GiftSectionComponent/> 
             <ContactUsComponent/>

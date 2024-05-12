@@ -4,6 +4,7 @@ import ShopPage from '../pages/shop';
 import WhyUsPage from '../pages/WhyUs';
 import Testimonial from '../pages/Testimonial'
 import ContactUsPage from '../pages/ContactUs';
+import LoginPage from '../pages/login';
 
 
 const WebRoutes= () => {
@@ -16,6 +17,7 @@ const WebRoutes= () => {
             <Route path= "/WhyUsPage" element={<WhyUsPage/>}/>
             <Route path="/Testimonial" element={<Testimonial/>}/>
             <Route path="/ContactUs" element= {<ContactUsPage/>}/>
+            <Route path="/login" element= {<LoginPage/>}/>
         </Routes>
 
 

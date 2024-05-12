@@ -1,7 +1,9 @@
 import { Link } from 'react-router-dom';
 import React, { Component } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css'
+import 'swiper/css';
+import slider from '../assets/images/slider-img.png';
+
 class HeroSlider extends React.Component {
     componentDidMount() {
 
@@ -34,7 +36,7 @@ class HeroSlider extends React.Component {
                                     </div>
                                     <div className="col-md-5 ">
                                         <div className="img-box">
-                                            <img src="images/slider-img.png" alt="" />
+                                            <img src={slider} alt="" />
                                         </div>
                                     </div>
                                 </div>
@@ -54,14 +56,14 @@ class HeroSlider extends React.Component {
                                             <p>
                                                 Sequi perspiciatis nulla reiciendis, rem, tenetur impedit, eveniet non necessitatibus error distinctio mollitia suscipit. Nostrum fugit doloribus consequatur distinctio esse, possimus maiores aliquid repellat beatae cum, perspiciatis enim, accusantium perferendis.
                                             </p>
-                                            <Link to="">
+                                            <Link to="/ContactUs">
                                                 Contact Us
                                             </Link>
                                         </div>
                                     </div>
                                     <div className="col-md-5 ">
                                         <div className="img-box">
-                                            <img src="images/slider-img.png" alt="" />
+                                            <img src={slider} alt="" />
                                         </div>
                                     </div>
                                 </div>
@@ -82,7 +84,7 @@ class HeroSlider extends React.Component {
                                             <p>
                                                 Sequi perspiciatis nulla reiciendis, rem, tenetur impedit, eveniet non necessitatibus error distinctio mollitia suscipit. Nostrum fugit doloribus consequatur distinctio esse, possimus maiores aliquid repellat beatae cum, perspiciatis enim, accusantium perferendis.
                                             </p>
-                                            <Link to="">
+                                            <Link to="/ContactUs">
                                                 Contact Us
                                             </Link>
                                         </div>

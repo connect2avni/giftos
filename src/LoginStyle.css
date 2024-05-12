@@ -24,6 +24,10 @@
   justify-content: center;
   align-items: center;
 }
+#signup .ring{
+  width: 600px;
+  height: 600px;
+}
 .ring i {
   position: absolute;
   inset: 0;
@@ -84,7 +88,7 @@
   position: relative;
   width: 100%;
   padding: 12px 20px;
-  background: transparent;
+  background: #ee99a736;
   border: 2px solid #0a0000;
   border-radius: 40px;
   font-size: 1.2em;

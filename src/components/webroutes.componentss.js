@@ -4,8 +4,8 @@ import ShopPage from '../pages/shop';
 import WhyUsPage from '../pages/WhyUs';
 import Testimonial from '../pages/Testimonial'
 import ContactUsPage from '../pages/ContactUs';
-import LoginPage from '../pages/login';
-
+import Login from '../pages/login';
+import Signup from '../pages/signup';
 
 const WebRoutes= () => {
     return(
@@ -17,7 +17,8 @@ const WebRoutes= () => {
             <Route path= "/WhyUsPage" element={<WhyUsPage/>}/>
             <Route path="/Testimonial" element={<Testimonial/>}/>
             <Route path="/ContactUs" element= {<ContactUsPage/>}/>
-            <Route path="/login" element= {<LoginPage/>}/>
+            <Route path="/login" element= {<Login/>}/>
+            <Route path="/signup" element={<Signup/>}/>
         </Routes>
 
 

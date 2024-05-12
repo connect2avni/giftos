@@ -7,7 +7,8 @@ const FooterComponent = () => {
 
     return (
         <>
-            <section className="info_section layout_padding2-top">
+            <section className="info_section layout_padding2-top mt-5">
+
                 <div className="social_container">
                     <div className="social_box">
                         <a href="#">

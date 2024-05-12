@@ -1,6 +1,9 @@
 import { Link } from 'react-router-dom';
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import {FaUser,FaShoppingBag,FaSearch} from 'react-icons/fa'
+import WhyUsPage from '../pages/WhyUs';
+
+
 
 const Navbar = () => {
     return (
@@ -21,30 +24,30 @@ const Navbar = () => {
 
                         <div className="collapse navbar-collapse innerpage_navbar" id="navbarSupportedContent">
                             <ul className="navbar-nav  ">
-                                <li className="nav-item ">
+                                <li className="nav-item active">
                                     <Link className="nav-link" to="/">Home <span className="sr-only">(current)</span></Link>
                                 </li>
-                                <li className="nav-item active">
+                                <li className="nav-item ">
                                     <Link className="nav-link" to="/shop">
                                         Shop
                                     </Link>
                                 </li>
-                                <li className="nav-item">
-                                    <Link className="nav-link" to="/why">
+                                <li className="nav-item " >
+                                    <Link className="nav-link" to="/WhyUsPage">
                                         Why Us
                                     </Link>
                                 </li>
-                                <li className="nav-item">
-                                    <Link className="nav-link" to="/testimonial">
+                                <li className="nav-item ">
+                                    <Link className="nav-link" to="/Testimonial">
                                         Testimonial
                                     </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link" to="/contact">Contact Us</Link>
+                                    <Link className="nav-link" to="/ContactUs">Contact Us</Link>
                                 </li>
                             </ul>
                             <div className="user_option">
-                                <Link to="">
+                                <Link to="/login">
                                     <FaUser/>
                                     <span>
                                         Login

@@ -1,14 +1,19 @@
 import React from "react"
 import Navbar from "../components/navbar.component"
+import FooterComponent from "../components/footer.component"
+import Testimonial from "../components/tesimonial.component"
 
-class testimonial extends React.Component{
+
+class TestimonialPage extends React.Component{
     render(){
         return(
             <>
                 <Navbar/>
+                <Testimonial/>
+                <FooterComponent/>
             </>
         )
     }
 
 }
-export default testimonial
+export default TestimonialPage

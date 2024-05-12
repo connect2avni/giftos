@@ -1,14 +1,19 @@
 import React from "react"
 import Navbar from "../components/navbar.component"
-
-class WhyUs extends React.Component{
+import WhySectionComponent from "../components/why-section.component"
+import FooterComponent from "../components/footer.component"
+class WhyUsPage extends React.Component{
     render(){
         return(
             <>
                 <Navbar/>
+                <WhySectionComponent/>
+                <FooterComponent/>
+
+
             </>
         )
     }
 
-}
-export default WhyUs
+};
+export default WhyUsPage;

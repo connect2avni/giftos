@@ -6,6 +6,9 @@ import MiddleComponent from "../components/middle-component"
 import WhySectionComponent from "../components/why-section.component"
 import GiftSectionComponent from "../components/gift-section.component"
 import ContactUsComponent from "../components/contact-us.component"
+import Testimonial from "../components/tesimonial.component"
+import FooterComponent from "../components/footer.component"
+import LoginPage from "./login"
 
 
 class HomePage extends React.Component{
@@ -20,6 +23,8 @@ class HomePage extends React.Component{
             <WhySectionComponent/>
             <GiftSectionComponent/> 
             <ContactUsComponent/>
+            <Testimonial/>
+            <FooterComponent/>
             </>
             
         )

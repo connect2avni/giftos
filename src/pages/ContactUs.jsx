@@ -1,18 +1,17 @@
 import React from "react"
 import Navbar from "../components/navbar.component"
-import LatestProducts from "../components/latest-products.components"
 import FooterComponent from "../components/footer.component"
-
-class ShopPage extends React.Component{
+import ContactUsComponent from "../components/contact-us.component"
+class ContactUsPage extends React.Component{
 
     render(){
         return(
             <>
             <Navbar/>
-            <LatestProducts/>
+            <ContactUsComponent/>
             <FooterComponent/>
             </>
         )
     }
 }
-export default ShopPage
+export default ContactUsPage

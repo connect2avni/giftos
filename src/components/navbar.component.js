@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import {FaUser,FaShoppingBag,FaSearch} from 'react-icons/fa'
 
 const Navbar = () => {
     return (
@@ -44,17 +45,17 @@ const Navbar = () => {
                             </ul>
                             <div className="user_option">
                                 <Link to="">
-                                    <i className="fa fa-user" aria-hidden="true"></i>
+                                    <FaUser/>
                                     <span>
                                         Login
                                     </span>
                                 </Link>
                                 <Link to="">
-                                    <i className="fa fa-shopping-bag" aria-hidden="true"></i>
+                                    <FaShoppingBag/>
                                 </Link>
                                 <form className="form-inline ">
                                     <button className="btn nav_search-btn" type="submit">
-                                        <i className="fa fa-search" aria-hidden="true"></i>
+                                        <FaSearch/>
                                     </button>
                                 </form>
                             </div>

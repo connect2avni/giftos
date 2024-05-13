@@ -8,7 +8,7 @@ class ShopPage extends React.Component{
     render(){
         return(
             <>
-            <Navbar/>
+            <Navbar navid={"shop"}/>
             <LatestProducts/>
             <FooterComponent/>
             </>

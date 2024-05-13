@@ -16,7 +16,7 @@ class HomePage extends React.Component{
     render(){
         return(
             <>
-            <Navbar/>
+            <Navbar navid={"home"}/>
             <HeroSlider/>
             <LatestProducts/>
             <MiddleComponent picture={picture1}/>

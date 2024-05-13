@@ -8,7 +8,7 @@ class TestimonialPage extends React.Component{
     render(){
         return(
             <>
-                <Navbar/>
+                <Navbar navid={"testimonials"}/>
                 <Testimonial/>
                 <FooterComponent/>
             </>

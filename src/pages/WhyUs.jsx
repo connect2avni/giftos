@@ -6,7 +6,7 @@ class WhyUsPage extends React.Component{
     render(){
         return(
             <>
-                <Navbar/>
+                <Navbar navid={"whyus"}/>
                 <WhySectionComponent/>
                 <FooterComponent/>
 

@@ -1,11 +1,40 @@
 import { Link } from 'react-router-dom';
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
-import {FaUser,FaShoppingBag,FaSearch} from 'react-icons/fa'
+import { FaUser, FaShoppingBag, FaSearch } from 'react-icons/fa'
 import WhyUsPage from '../pages/WhyUs';
 
 
 
-const Navbar = () => {
+const Navbar = ({ navid }) => {
+
+    const menus = [
+        {
+            id: "home",
+            name: "Home",
+            link: "/"
+        },
+        {
+            id: "shop",
+            name: "Shop",
+            link: "/shop"
+        },
+        {
+            id: "whyus",
+            name: "Why Us",
+            link: "/WhyUsPage"
+        },
+        {
+            id: "testimonials",
+            name: "Testimonials",
+            link: "/Testimonial"
+        },
+        {
+            id: "contactus",
+            name: "Contact Us",
+            link: "/ContactUs"
+        }
+    ]
+
     return (
         <>
 
@@ -23,42 +52,45 @@ const Navbar = () => {
                         </button>
 
                         <div className="collapse navbar-collapse innerpage_navbar" id="navbarSupportedContent">
-                            <ul className="navbar-nav  ">
-                                <li className="nav-item active">
-                                    <Link className="nav-link" to="/">Home <span className="sr-only">(current)</span></Link>
-                                </li>
-                                <li className="nav-item ">
-                                    <Link className="nav-link" to="/shop">
-                                        Shop
-                                    </Link>
-                                </li>
-                                <li className="nav-item " >
-                                    <Link className="nav-link" to="/WhyUsPage">
-                                        Why Us
-                                    </Link>
-                                </li>
-                                <li className="nav-item ">
-                                    <Link className="nav-link" to="/Testimonial">
-                                        Testimonial
-                                    </Link>
-                                </li>
-                                <li className="nav-item">
-                                    <Link className="nav-link" to="/ContactUs">Contact Us</Link>
-                                </li>
+                            <ul className="navbar-nav">
+                                {
+                                    menus.map((item, key) => {
+
+                                        if (navid == item.id) {
+                                            return (
+                                                <li className="nav-item active" key={key}>
+                                                    <Link className="nav-link" to={item.link}>
+                                                        {item.name}
+                                                    </Link>
+                                                </li>
+                                            );
+                                        } else {
+                                            return (
+                                                <li className="nav-item" key={key}>
+                                                    <Link className="nav-link" to={item.link}>
+                                                        {item.name}
+                                                    </Link>
+                                                </li>
+                                            );
+                                        }
+
+
+                                    })
+                                }
                             </ul>
                             <div className="user_option">
                                 <Link to="/login">
-                                    <FaUser/>
+                                    <FaUser />
                                     <span>
                                         Login
                                     </span>
                                 </Link>
                                 <Link to="">
-                                    <FaShoppingBag/>
+                                    <FaShoppingBag />
                                 </Link>
                                 <form className="form-inline ">
                                     <button className="btn nav_search-btn" type="submit">
-                                        <FaSearch/>
+                                        <FaSearch />
                                     </button>
                                 </form>
                             </div>

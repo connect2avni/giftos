@@ -7,7 +7,7 @@ class ContactUsPage extends React.Component{
     render(){
         return(
             <>
-            <Navbar/>
+            <Navbar navid={"contactus"}/>
             <ContactUsComponent/>
             <FooterComponent/>
             </>

@@ -29,10 +29,10 @@ const GiftSectionComponent= ()=> {
                 Omnis ex nam laudantium odit illum harum, excepturi accusamus at corrupti, velit blanditiis unde perspiciatis, vitae minus culpa? Beatae at aut consequuntur porro adipisci aliquam eaque iste ducimus expedita accusantium?
               </p>
               <div class="btn-box">
-                <Link to="/cart" class="btn1">
+                <Link to="#" class="btn1">
                   Buy Now
                 </Link>
-                <Link to="/allProducts" class="btn2">
+                <Link to="" class="btn2">
                   See More
                 </Link>
               </div>

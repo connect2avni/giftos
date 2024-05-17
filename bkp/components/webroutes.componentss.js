@@ -6,8 +6,7 @@ import Testimonial from '../pages/Testimonial'
 import ContactUsPage from '../pages/ContactUs';
 import Login from '../pages/login';
 import Signup from '../pages/signup';
-import CartPage from '../pages/cart';
-import AllProductPage from '../pages/AllProducts';
+import CartApp from '../cart/CartApp';
 
 
 const WebRoutes= () => {
@@ -22,9 +21,7 @@ const WebRoutes= () => {
             <Route path="/ContactUs" element= {<ContactUsPage/>}/>
             <Route path="/login" element= {<Login/>}/>
             <Route path="/signup" element={<Signup/>}/>
-            <Route path="/cart" element={<CartPage/>}/>
-            <Route path="/allProducts" element= {<AllProductPage/>}/>
-
+            <Route path="/cart" element={<CartApp/>}/>
 
         </Routes>
 

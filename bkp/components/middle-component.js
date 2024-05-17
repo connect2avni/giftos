@@ -26,10 +26,10 @@ const MiddleComponent = ({ picture }) => {
                                     Qui ex dolore at repellat, quia neque doloribus omnis adipisci, ipsum eos odio fugit ut eveniet blanditiis praesentium totam non nostrum dignissimos nihil eius facere et eaque. Qui, animi obcaecati.
                                 </p>
                                 <div className="btn-box">
-                                    <Link to="/cart" className="btn1">
+                                    <Link to="#" className="btn1">
                                         Buy Now
                                     </Link>
-                                    <Link to="/allProducts" className="btn2">
+                                    <Link to="#" className="btn2">
                                         See More
                                     </Link>
                                 </div>

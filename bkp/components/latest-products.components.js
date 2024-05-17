@@ -21,17 +21,17 @@ const LatestProducts = () => {
                     </div>
                   
                     <div className="row">
-                        <ProductCard picture={p1} name="Ring" price="$200" size="col-sm-6 col-md-4 col-lg-3"/> 
-                        <ProductCard picture={p2} name="Watch" price="$300" size="col-sm-6 col-md-4 col-lg-3"/> 
-                        <ProductCard picture={p3} name="Teddy" price="$100" size="col-sm-6 col-md-4 col-lg-3"/> 
-                        <ProductCard picture={p4} name="Flowers" price="$50" size="col-sm-6 col-md-4 col-lg-3"/> 
-                        <ProductCard picture={p5} name="Large Teddy" price="$300" size="col-sm-6 col-md-4 col-lg-3"/> 
-                        <ProductCard picture={p6} name="Bouqet" price="$100" size="col-sm-6 col-md-4 col-lg-3"/> 
-                        <ProductCard picture={p7} name="Watch" price="$300" size="col-sm-6 col-md-4 col-lg-3"/> 
-                        <ProductCard picture={p8} name="Diamond Ring" price="$400" size="col-sm-6 col-md-4 col-lg-3"/> 
+                        <ProductCard picture={p1} name="Ring" price="$200"/> 
+                        <ProductCard picture={p2} name="Watch" price="$300"/> 
+                        <ProductCard picture={p3} name="Teddy" price="$100"/> 
+                        <ProductCard picture={p4} name="Flowers" price="$50"/> 
+                        <ProductCard picture={p5} name="Large Teddy" price="$300"/> 
+                        <ProductCard picture={p6} name="Bouqet" price="$100"/> 
+                        <ProductCard picture={p7} name="Watch" price="$300"/> 
+                        <ProductCard picture={p8} name="Diamond Ring" price="$400"/> 
                     </div>
                     <div className="btn-box">
-                        <Link to="/allProducts">
+                        <Link to="/shop">
                             View All Products
                         </Link>
                     </div>

@@ -1,0 +1,14 @@
+D:\Skills-2\react\giftos\New folder\Giftos\GiftosEntity\bin\Debug\net8.0\GiftosEntity.deps.json
+D:\Skills-2\react\giftos\New folder\Giftos\GiftosEntity\bin\Debug\net8.0\GiftosEntity.runtimeconfig.json
+D:\Skills-2\react\giftos\New folder\Giftos\GiftosEntity\bin\Debug\net8.0\GiftosEntity.dll
+D:\Skills-2\react\giftos\New folder\Giftos\GiftosEntity\bin\Debug\net8.0\GiftosEntity.pdb
+D:\Skills-2\react\giftos\New folder\Giftos\GiftosEntity\obj\Debug\net8.0\GiftosEntity.csproj.AssemblyReference.cache
+D:\Skills-2\react\giftos\New folder\Giftos\GiftosEntity\obj\Debug\net8.0\GiftosEntity.GeneratedMSBuildEditorConfig.editorconfig
+D:\Skills-2\react\giftos\New folder\Giftos\GiftosEntity\obj\Debug\net8.0\GiftosEntity.AssemblyInfoInputs.cache
+D:\Skills-2\react\giftos\New folder\Giftos\GiftosEntity\obj\Debug\net8.0\GiftosEntity.AssemblyInfo.cs
+D:\Skills-2\react\giftos\New folder\Giftos\GiftosEntity\obj\Debug\net8.0\GiftosEntity.csproj.CoreCompileInputs.cache
+D:\Skills-2\react\giftos\New folder\Giftos\GiftosEntity\obj\Debug\net8.0\GiftosEntity.dll
+D:\Skills-2\react\giftos\New folder\Giftos\GiftosEntity\obj\Debug\net8.0\refint\GiftosEntity.dll
+D:\Skills-2\react\giftos\New folder\Giftos\GiftosEntity\obj\Debug\net8.0\GiftosEntity.pdb
+D:\Skills-2\react\giftos\New folder\Giftos\GiftosEntity\obj\Debug\net8.0\GiftosEntity.genruntimeconfig.cache
+D:\Skills-2\react\giftos\New folder\Giftos\GiftosEntity\obj\Debug\net8.0\ref\GiftosEntity.dll

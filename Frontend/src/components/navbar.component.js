@@ -1,10 +1,22 @@
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import { FaUser, FaShoppingBag, FaSearch } from 'react-icons/fa'
 import WhyUsPage from '../pages/WhyUs';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 
 const Navbar = ({ navid }) => {
+
+    const [userName, setUserName] = useState('');
+    const navigate = useNavigate();
+
+    useEffect(() => {
+        const user = localStorage.getItem('userName');
+        if(!user){
+            navigate('/login');
+        } else {
+            setUserName(user);
+        }
+    });
 
     const menus = [
         {
@@ -43,6 +55,11 @@ const Navbar = ({ navid }) => {
             console.log(data.results[0]);
         })
     }, []);
+
+    const logout = () => {
+        localStorage.removeItem('userName');
+        navigate('/login');
+    }
 
     return (
         <>
@@ -88,12 +105,14 @@ const Navbar = ({ navid }) => {
                                 }
                             </ul>
                             <div className="user_option">
-                                <Link to="/login">
+                                {/* <Link to="/login">
                                     <FaUser />
                                     <span>
                                         Login
                                     </span>
-                                </Link>
+                                </Link> */}
+                                <Link to="#">{userName}</Link>
+                                <Link to="#" onClick={logout}>logout</Link>
                                 <Link to="/cart">
                                     <FaShoppingBag />
                                 </Link>

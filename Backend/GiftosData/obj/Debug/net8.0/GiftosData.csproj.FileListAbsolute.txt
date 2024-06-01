@@ -15,3 +15,21 @@ D:\Skills-2\react\giftos\New folder\Giftos\GiftosData\obj\Debug\net8.0\refint\Gi
 D:\Skills-2\react\giftos\New folder\Giftos\GiftosData\obj\Debug\net8.0\GiftosData.pdb
 D:\Skills-2\react\giftos\New folder\Giftos\GiftosData\obj\Debug\net8.0\GiftosData.genruntimeconfig.cache
 D:\Skills-2\react\giftos\New folder\Giftos\GiftosData\obj\Debug\net8.0\ref\GiftosData.dll
+D:\Skills-2\react\giftos\Backend\GiftosData\obj\Debug\net8.0\GiftosData.csproj.AssemblyReference.cache
+D:\Skills-2\react\giftos\Backend\GiftosData\obj\Debug\net8.0\GiftosData.GeneratedMSBuildEditorConfig.editorconfig
+D:\Skills-2\react\giftos\Backend\GiftosData\obj\Debug\net8.0\GiftosData.AssemblyInfoInputs.cache
+D:\Skills-2\react\giftos\Backend\GiftosData\obj\Debug\net8.0\GiftosData.AssemblyInfo.cs
+D:\Skills-2\react\giftos\Backend\GiftosData\obj\Debug\net8.0\GiftosData.csproj.CoreCompileInputs.cache
+D:\Skills-2\react\giftos\Backend\GiftosData\obj\Debug\net8.0\GiftosData.sourcelink.json
+D:\Skills-2\react\giftos\Backend\GiftosData\obj\Debug\net8.0\GiftosData.dll
+D:\Skills-2\react\giftos\Backend\GiftosData\obj\Debug\net8.0\refint\GiftosData.dll
+D:\Skills-2\react\giftos\Backend\GiftosData\obj\Debug\net8.0\GiftosData.pdb
+D:\Skills-2\react\giftos\Backend\GiftosData\bin\Debug\net8.0\GiftosData.deps.json
+D:\Skills-2\react\giftos\Backend\GiftosData\bin\Debug\net8.0\GiftosData.runtimeconfig.json
+D:\Skills-2\react\giftos\Backend\GiftosData\bin\Debug\net8.0\GiftosData.dll
+D:\Skills-2\react\giftos\Backend\GiftosData\bin\Debug\net8.0\GiftosData.pdb
+D:\Skills-2\react\giftos\Backend\GiftosData\bin\Debug\net8.0\GiftosEntity.dll
+D:\Skills-2\react\giftos\Backend\GiftosData\bin\Debug\net8.0\GiftosEntity.pdb
+D:\Skills-2\react\giftos\Backend\GiftosData\obj\Debug\net8.0\GiftosData.csproj.CopyComplete
+D:\Skills-2\react\giftos\Backend\GiftosData\obj\Debug\net8.0\GiftosData.genruntimeconfig.cache
+D:\Skills-2\react\giftos\Backend\GiftosData\obj\Debug\net8.0\ref\GiftosData.dll

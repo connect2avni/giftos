@@ -21,4 +21,8 @@
     <ProjectReference Include="..\GiftosEntity\GiftosEntity.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Services\Repository\" />
+  </ItemGroup>
+
 </Project>

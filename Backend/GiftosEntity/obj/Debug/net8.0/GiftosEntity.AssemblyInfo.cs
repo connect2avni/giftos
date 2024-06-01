@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GiftosEntity")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e38b6479787d8c8b18d379e6cb1247fc199430b5")]
 [assembly: System.Reflection.AssemblyProductAttribute("GiftosEntity")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GiftosEntity")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
